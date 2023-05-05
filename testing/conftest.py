@@ -1,6 +1,7 @@
-from app import app
 from _pytest.fixtures import fixture
 from flask.testing import FlaskClient
+
+from app import app
 
 
 @fixture
