@@ -6,5 +6,6 @@ from app import app
 
 @fixture
 def client() -> FlaskClient:
+    """client generator"""
     with app.test_client() as test_client:
         yield test_client
