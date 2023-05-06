@@ -1,3 +1,6 @@
+"""client generator for tests"""
+
+
 from _pytest.fixtures import fixture
 from flask.testing import FlaskClient
 
